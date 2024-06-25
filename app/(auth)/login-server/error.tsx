@@ -1,8 +1,8 @@
 'use client';
 
-import ErrorCard from "./_components/error-card";
+import ErrorCard from "@/app/(auth)/login-server/_components/error-card";
 
-export default function RegisterError({
+export default function LoginError({
     error,
     reset,
 }: {
